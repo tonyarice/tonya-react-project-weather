@@ -1,12 +1,16 @@
-
+import React from "react";
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      Weather App
+      <h1>Weather App</h1>
+      <footer>
+        This project was coded by{" "} <a href="#">Tonya Rice</a> and is {" "}
+      <a href="https://github.com/tonyarice/tonya-react-project-weather" target="blank" rel="noreferrer">open-sourced on GitHub</a>.
+      </footer>
     </div>
   );
 }
 
-export default App;
+
