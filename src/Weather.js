@@ -54,7 +54,7 @@ export default function Weather() {
     } else {
         let apiKey = "16cd6fd99fc921f3bd2763bbd7c2b61b";
         let city = "Paris";
-        let apiUrl = `https://api.openweathermap.org/data/2.5/weather?id=${city}&appid=${apiKey}&units=imperial`;
+        let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
         console.log(apiUrl);
         axios.get(apiUrl).then(handleResponse);
 
