@@ -6,5 +6,11 @@
 .App footer {
     font-size: 11px;
     margin: 10px 0;
+    
 
+}
+
+.App footer a:link {
+    text-decoration: none;
+    
 }
